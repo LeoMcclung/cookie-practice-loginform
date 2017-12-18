@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Some Kinda Warmup</title>
+        <title>DO NOT TRUST THIS</title>
         <link href="/styles/style.css" rel="stylesheet">
     </head>
     <body>
         <header>
             <h1>{{title}}</h1>
-            <h3>{{summary}}</h3>
-            <p>{{nomnom}}</p>
         </header>
+        <body>
+            <form class="login-form" method="post" action="/user">
+                <h3>Username</h3>
+                <input type="text" name="username" value="" placeholder="eg: BAMF_BANANA">
+                <br>
+                <h3>Password</h3>
+                <input type="text" name="password" value="" placeholder="Put in 12345. DO IT">
+                <br>
+                <br>
+                <button class="login-button">SUBMIT</button>
+            </form>
+        </body>
     
     </body>
 </html>

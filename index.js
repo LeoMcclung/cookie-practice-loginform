@@ -23,7 +23,7 @@ app.use(cookieSession({
 }));
 
 app.use('/', homeRoutes)
-app.use('/users', userPageRoutes)
+app.use('/user', userPageRoutes)
 
 
 app.listen(port, () => {

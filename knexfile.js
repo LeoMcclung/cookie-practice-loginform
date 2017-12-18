@@ -1,9 +1,9 @@
-require('dotenv').config()
+// require('dotenv').config()
 
 module.exports = {
   development: {
     client: 'pg',
-    connection: 'postgres://localhost/galvanize-reads',
+    connection: 'postgres://localhost/cookie-login',
   },
   production: {
     client: 'pg',

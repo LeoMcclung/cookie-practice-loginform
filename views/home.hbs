@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>DO NOT TRUST THIS</title>
-        <link href="/styles/home.css" rel="stylesheet">
-    </head>
+
+<head>
+    <title>DO NOT TRUST THIS</title>
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <link href="/styles/home.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="title">{{title}}</h1>
+    </header>
     <body>
-        <header>
-            <h1 class="title">{{title}}</h1>
-        </header>
-        <body>
-            <h2 class="login-title">{{subtitle}}</h2>
-            <form class="login-form" method="post" action="/user">
-                <h3>Username</h3>
-                <input type="text" name="username" value="" placeholder="eg: BAMF_BANANA">
-                <br>
-                <h3>Password</h3>
-                <input type="text" name="password" value="" placeholder="Put in 12345. DO IT">
-                <br>
-                <br>
-                <button class="login-button">SUBMIT</button>
-            </form>
-        </body>
-    
+        <h2 class="login-title">{{subtitle}}</h2>
+        <form class="login-form" method="post" action="/user">
+            <h3>Username</h3>
+            <input class="input" type="text" name="username" value="" placeholder="             Dude.... Whats My Username?">
+            <h3>Password</h3>
+            <input class="input" type="password" name="password" value="" placeholder="    Enter 12345. DO IT. BE THAT PERSON">
+            <br>
+            <button class="submit-button">SUBMIT</button>
+        </form>
     </body>
+</body>
+
 </html>

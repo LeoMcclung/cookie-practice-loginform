@@ -5,7 +5,8 @@ const query = require('../db/queries')
 router.get('/', (req, res) => {
     console.log(req.session)
     const data = {
-        title: 'Shitty Login Page: Login'
+        title: 'Shitty Login Page',
+        subtitle: 'Login Below'
     };
     res.render('home', data)
 })

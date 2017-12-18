@@ -1,0 +1,33 @@
+{
+  "name": "cookie-practice-loginform",
+  "version": "1.0.0",
+  "description": "see github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaishinn/cookie-practice-loginform.git"
+  },
+  "keywords": [
+    "cookies"
+  ],
+  "author": "leo mcclung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xaishinn/cookie-practice-loginform/issues"
+  },
+  "homepage": "https://github.com/xaishinn/cookie-practice-loginform#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-session": "^2.0.0-beta.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "hbs": "^4.0.1",
+    "knex": "^0.14.2",
+    "nodemon": "^1.13.3",
+    "pg": "^7.4.0",
+    "postgresql": "0.0.1"
+  }
+}

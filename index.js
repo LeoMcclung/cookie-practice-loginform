@@ -5,7 +5,7 @@ const cookieSession = require('cookie-session')
 const port = process.env.PORT || 9000
 const query = require('./db/queries')
 const homeRoutes = require('./routes/home')
-const userPageRoutes = require('./routes/user-page')
+const userRoutes = require('./routes/users')
 
 app.set('view engine', 'hbs')
 app.use(bodyParser.urlencoded({
@@ -23,7 +23,7 @@ app.use(cookieSession({
 }));
 
 app.use('/', homeRoutes)
-app.use('/user', userPageRoutes)
+app.use('/user', userRoutes)
 
 
 app.listen(port, () => {

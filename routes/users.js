@@ -2,6 +2,12 @@ const express = require('express');
 const router = express.Router();
 const query = require('../db/queries')
 
+/* GET users listing. */
+router.get('/', function(req, res, next) {
+  res.send('respond with a resource');
+});
+
+//post request to database to login
 
 router.post('/', (req, res, next) => {
     let userData = {

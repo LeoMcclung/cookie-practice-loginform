@@ -6,7 +6,8 @@ router.get('/', (req, res) => {
     console.log(req.session)
     const data = {
         title: 'Shitty Login Page',
-        subtitle: 'Login Below'
+        subtitle: 'Join Or Login Below',
+        create: '/create'
     };
     res.render('home', data)
 })

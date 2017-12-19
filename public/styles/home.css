@@ -4,6 +4,7 @@ body {
 
 .title {
     text-align: center;
+    text-shadow: 3px 3px 1px crimson, -3px -3px 1px crimson;
     font-family: 'Monoton', cursive;
     font-size: 90px;
     font-weight: 550;
@@ -11,13 +12,22 @@ body {
 
 .login-title {
     text-align: center;
+    text-shadow: 3px 3px 1px gold, -3px -3px 1px gold;
     font-family: 'Monoton', cursive;
     font-size: 70px;
     font-weight: 550;
 }
 
-.login-form {
+.login-form{
     text-align: center;
+    text-shadow: 3px 3px 2px greenyellow, -3px -3px 2px greenyellow;
+    font-family: 'Monoton', cursive;
+    font-size: 35px;
+}
+
+.create-form{
+    text-align: center;
+    text-shadow: 3px 3px 2px yellow, -3px -3px 2px yellow;
     font-family: 'Monoton', cursive;
     font-size: 35px;
 }
